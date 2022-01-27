@@ -68,7 +68,7 @@ const educationInfo = [
         school: 'Hacettepe University',
         logo:'hacettepe.png',
         location: 'Ankara,Turkey',
-        title: 'MSc in Data Engineering',
+        title: 'MSc in Computer Science',
         duration: '2016 – 2018',
         description: '',
     },
