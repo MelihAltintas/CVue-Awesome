@@ -26,7 +26,7 @@
                     <li v-for="(social,index) in socialMediaInfo" :key="index" :href="social.link">
                         <a class="text-link" :href="`${social.link}`" target="_blank" >
                             <i :class="`fa fa-${social.name} mb-2`" style="font-size: 20px;margin-right:10px"></i>
-                            <span>{{social.displayName}}</span>
+                            <span v-html="social.displayName"></span>
                         </a>
                     </li>
 

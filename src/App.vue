@@ -6,25 +6,18 @@
         <div class="p-5">
             <Summary :summaryInfo="data.summaryInfo" />
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <Experience :experinceInfo="data.experinceInfo" />
+                    <Portfolio :portfolioInfo="data.portfolioInfo"/>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <Education :educationInfo="data.educationInfo" />
                     <Skill :skillInfo="data.skillInfo" :otherSkillInfo="data.otherSkillInfo" :proSkillInfo="data.proSkillInfo" />
                     <!-- <Language :languageInfo="data.languageInfo" /> -->
-                    <Interest :interestInfo="data.interestInfo" />
-                    <Certificate :certificateInfo="data.certificateInfo" />
+   
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <Language :languageInfo="data.languageInfo" />
-                </div>
-                <div class="col-lg-8">
-                    <Volunteer :volunteerInfo="data.volunteerInfo" />
-                </div>
-            </div>
+    
         </div>
     </div>
 </div>
@@ -45,7 +38,7 @@ import Interest from '@/components/Interest.vue'
 import Certificate from '@/components/Certificate.vue'
 import Volunteer from '@/components/Volunteer.vue'
 import Skill from '@/components/Skill.vue'
-
+import Portfolio from '@/components/Portfolio.vue'
 import data from './data'
 
 export default {
@@ -60,7 +53,7 @@ export default {
         Interest,
         Certificate,
         Skill,
-        Volunteer
+        Volunteer,Portfolio
     },
     data() {
         return {

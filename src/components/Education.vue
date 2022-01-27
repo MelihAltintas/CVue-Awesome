@@ -1,32 +1,45 @@
 <template>
-<section class="mb-5">
+  <section class="mb-5">
     <h3 class="section-title" style="margin-left: 10px;">Education</h3>
     <ul class="timeline">
-        <li v-for="(education,index) in educationInfo" :key="index" class="timeline-item rounded ml-3 p-4 shadow">
-            <div class="timeline-arrow"></div>
-            <p class="h5 bold">
-                <!-- <i class="fa fa-university mr-1"></i> -->
-                 {{education.school}}
-            </p>
-            <p class="h6">{{education.title}}</p>
-            <span style="font-style: italic;">{{education.location}}</span><br>
-            <span style="font-style: italic;">{{education.duration}}</span>
-            <p class="mt-2" v-html="education.description"></p>
-        </li>
+      <li
+        v-for="(education, index) in educationInfo"
+        :key="index"
+        class="timeline-item rounded ml-3 p-4 shadow"
+      >
+        <div class="timeline-arrow"></div>
+        <p class="h5 bold">
+          <!-- <i class="fa fa-university mr-1"></i> -->
+          <img :src="getImagePath(education.logo)" height="40"/>
+    
+          <span style="margin-left:5px">{{ education.school }}</span>
+        </p>
+        <p class="h6">{{ education.title }}</p>
+        <span style="font-style: italic;">{{ education.location }}</span
+        ><br />
+        <span style="font-style: italic;">{{ education.duration }}</span>
+        <p class="mt-2" v-html="education.description"></p>
+      </li>
     </ul>
-</section>
+  </section>
 </template>
 
 <script>
 export default {
-    props: {
-        educationInfo: {
-            type: Object,
-        }
-    }
-}
+  methods: {
+      
+    getImagePath(image) {
+      return require("@/assets/images/" + image);
+    },
+
+       
+  },
+  props: {
+    educationInfo: {
+      type: Object,
+    },
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

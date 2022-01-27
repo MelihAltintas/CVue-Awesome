@@ -1,173 +1,87 @@
 const introInfo = {
-    name: 'Emre COŞKUNÇAY',
+    name: 'Melih ALTINTAŞ',
     title: 'Full Stack Developer',
     location: 'Ankara, Turkey',
-    description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
-    image: 'ec.jpg',
+    description: '',
+    image: 'me.jpg',
 }
 
 //dynamic icon
 const socialMediaInfo = [{
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/coskuncayemre/',
+        link: 'https://www.linkedin.com/in/melihaltintas92/',
         username: 'coskuncayemre',
-        displayName: 'linkedin/coskuncayemre'
+        displayName: 'linkedin/melihaltintas92'
     },
 
     {
         name: 'github',
-        link: 'https://github.com/coskuncayemre',
-        username: 'coskuncayemre',
-        displayName: 'github/coskuncayemre'
+        link: 'https://github.com/MelihAltintas',
+        username: 'MelihAltintas',
+        displayName: 'github/MelihAltintas'
     },
-    // {
-    //     name: 'globe',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName: 'emrecoskuncay.com'
-    // },
-    // {
-    //     name: 'stack-overflow',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName:'stackoverflow.com'
-    // },
+    {
+        name: 'stack-overflow',
+        link: 'https://stackoverflow.com/users/2740071/melih-alt%c4%b1nta%c5%9f',
+        username: 'MelihAltintas',
+        displayName:'stackoverflow/MelihAltintas'
+    },
 ]
 
 
 const contactInfo = [
     {
         name: 'envelope',
-        context: 'emrecoskuncay@gmail.com',
+        context: 'melihaltintas@hotmail.com',
         size: '20px',
         style: "font-size:20px;margin-right: 10px;",
-        link: 'mailto:emrecoskuncay@gmail.com'
+        link: 'mailto:melihaltintas@hotmail.com'
     },
     {
         name: 'phone-square',
-        context: '+905542694056',
+        context: '+905398528421',
         size: '23px',
         style: "font-size:23px;margin-right: 10px;",
-        link: 'tel:+905542694056'
+        link: 'tel:+905398528421'
     },
 ]
 
 const summaryInfo = 
-    'Hello, It\'s Emre from Ankara,Turkey.I have +2 years of experience with Vue.JS, .NET Core, Docker, Kubernetes with a focus on RestAPIs, MVC and micro-services.My priority is to improve reusability and write generic code. In my social life, I\'m a backpacker.I have visited 22 countries and I am excitedly waiting for this number to increase. In addition, I enjoy talking about new startup ideas.'
+    "I'm a senior full-stack software developer with 6 years of experience." +
+    "Have interest in designing and crafting efficient modern softwares and learning new technologies and tools"
 
 
 //desc v-html 
 const experinceInfo = [
     {
         workAt: 'Aselsan',
-        position: 'Software Engineer',
-        duration: 'Dec 2019 – Present',
+        position: 'Senior Software Engineer',
+        duration: '07 2015 – *',
         description: 'Work as a full stack software engineer.',
-        techs: ["Vue.JS", ".NET Core", "Docker", "Kubernetes", "PostgreSQL"]
+        techs: [".NET Core", "Vue.JS", "Docker", "Kubernetes", "RestAPIs", "SOAP","RabbitMQ","Kafka","Elasticsearch","Oracle","PostgreSQL","Microsoft SQL Server"]
     },
-    {
-        workAt: 'Aselsan (Intern)',
-        position: 'Software Engineer',
-        duration: 'Jul 2019 - Sep 2019',
-        description: 'Developed desktop application, wrote relevant documents and prepared unit tests.Wrote requirements documents, project definition documents and test procedures.',
-        techs: ["Java","JUnit","SQL"]
-    },
-    {
-        workAt: 'Innova (Intern)',
-        position: 'Full Stack Developer',
-        duration: 'Jun 2018 – Aug 2018',
-        description: 'Took part in the development team of Public Wi-Fi project.Designed simple welcome page.',
-        techs: ["NodeJS"]
-    },
-    {
-        workAt: 'DüğünSitemiz',
-        position: 'Founder',
-        duration: 'Jun 2016 – Dec 2019',
-        description: 'DüğünSitemiz is a special website project for couples to marry. This project aims to remove couples RSVP difficulties. It is our honor to make better their happiest day of life.',
-        techs: ["Python", "Django", "MongoDB"]
-    },
-    {
-        workAt: 'Estiva Werbeagentur,Austria',
-        position: 'Freelance Web Developer',
-        duration: 'Jan 2018 – Aug 2018',
-        description: '',
-        techs: ["Wordpress", "HTML/CSS"]
-    },
-    {
-        workAt: 'Akman TZOB Hotel,Turkey',
-        position: 'Social Media Manager',
-        duration: 'Dec 2017 – Sep 2018',
-        description: '',
-        techs: ['Adobe Illustrator']
-    }
+    
 ]
 
 const educationInfo = [
     {
         school: 'Hacettepe University',
+        logo:'hacettepe.png',
         location: 'Ankara,Turkey',
         title: 'MSc in Data Engineering',
-        duration: '2021 – Current',
-        description: '',
-    },
-    {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'BSc in Computer Science',
-        duration: '2015 – 2020',
-        description: '<b>GPA:</b> 3.38/4.00',
-    },
-    {
-        school: 'The English Studio Language School',
-        location: 'London,UK',
-        title: 'Student',
-        duration: 'Aug 2018 – Oct 2018',
-        description: '',
-    },
-]
-
-const volunteerInfo = [
-    // {
-    //     organisation: 'The English Studio Language School',
-    //     title: 'Student',
-    //     duration: 'July 2018 - Sep 2018',
-    //     description: 'London,UK',
-    // },
-    {
-        organisation: 'Hacettepe University,Social Life Organization',
-        title: 'Organization Manager',
-        duration: '2015 – 2021',
-        description: '',
-    }, {
-        organisation: 'Hacettepe University,Community of Contest',
-        title: 'Organization Manager',
         duration: '2016 – 2018',
         description: '',
     },
     {
-        organisation: 'Hacettepe University ACM',
-        title: 'Member',
-        duration: '2015 – 2020',
-        description: '',
-    }
-]
-
-
-const certificateInfo = [
-    {
-        organisation: 'Red Hat',
-        title: 'Red Hat Certified System Administrator RH124',
-        duration: 'Feb,2021',
-        description: '',
+        school: 'Hacettepe University',
+        logo:'hacettepe.png',
+        location: 'Ankara,Turkey',
+        title: 'BSc in Computer Science',
+        duration: '2010 – 2015',
+        description: '<b>GPA: 3.82/4.00 <br> ranked as the 1st in the department and faculty of engineering with a 3.82 GPA.</b>',
     },
-    {
-        organisation: 'KOSGEB',
-        title: 'Entrepreneurship Certificate',
-        duration: 'Jun,2019',
-        description: '',
-    },
-]
-
+    
+];
 const projectInfo = [{
         title: 'Project 1',
         meta: 'Propulsion Engineer',
@@ -209,34 +123,35 @@ const projectInfo = [{
 
 const skillInfo = [
     {
-        name: 'Javascript',
-        rate: 90,
-    },
-    {
         name: '.NET Core',
-        rate: 65,
-    },{
-        name: 'Flutter',
-        rate: 78,
-    }, 
-    {
+        rate: 100,
+    },    {
         name: 'VueJS',
-        rate: 90,
+        rate: 100,
+    },  {
+        name: 'Svelte JS',
+        rate: 80,
+    },  {
+        name: 'React',
+        rate: 75,
+    }, {
+        name: 'Node JS',
+        rate: 80,
     },
     {
-        name: 'Docker',
-        rate: 85,
+        name: 'HTML/CSS/LESS/SASS',
+        rate: 95,
     },
     {
-        name: 'HTML/CSS',
-        rate: 85,
+        name: 'Flutter',
+        rate: 70,
     },
     
 ]
 
-const otherSkillInfo = ['Kubernetes','Nginx','Git','WebGL','MVC','Bootstrap','Jira','TFS']
+const otherSkillInfo = ['RabbitMQ',"Kafka","Elasticsearch","Docker/Kubernetes",'Jira','Git','TFS',"Oracle","PostgreSQL","Microsoft SQL Server"]
 
-const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver',]
+const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver']
 
 // 0,1,2,3,4,5
 const languageInfo = [{
@@ -256,25 +171,25 @@ const languageInfo = [{
     }
 ]
 
-
-
-const interestInfo = [{
-        name: 'Traveler',
-        description: "22 Countries,for now",
-    },
-    {
-        name: 'Swimming',
-        description: "",
-    },
-    {
-        name: 'Entrepreneurship Ideas',
-        description: "",
-    },
-    {
-        name: 'Smart Home Ideas',
-        description: "",
-    },
+const portfolioInfo = [{
+    logo: 'vue3-openlayers.jpg',
+    description: "vue3-openlayers is components library that brings the powerful OpenLayers API to the Vue3 reactive world. It can display maps with tiled, raster or vector layers loaded from different sources.",
+    github:"https://github.com/MelihAltintas/vue3-openlayers",
+},
+{
+    logo: 'slim.jpg',
+    description: "svelte-slimscroll is a action for Svelte.js, which can transforms any div into a scrollable area with a nice scrollbar.",
+    github:"https://github.com/MelihAltintas/svelte-slimscroll",
+},
+{
+    logo: 'svelteknob.png',
+    description: "Knob control for Svelte.js",
+    github:"https://github.com/MelihAltintas/svelte-knob",
+},
 ]
+
+
+
 
 export default {
     introInfo: introInfo,
@@ -283,12 +198,10 @@ export default {
     educationInfo: educationInfo,
     projectInfo: projectInfo,
     skillInfo: skillInfo,
-    certificateInfo: certificateInfo,
-    volunteerInfo: volunteerInfo,
     languageInfo: languageInfo,
     contactInfo: contactInfo,
-    interestInfo: interestInfo,
     summaryInfo: summaryInfo,
     otherSkillInfo: otherSkillInfo,
-    proSkillInfo: proSkillInfo
+    proSkillInfo: proSkillInfo,
+    portfolioInfo:portfolioInfo
 }
