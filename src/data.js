@@ -15,7 +15,7 @@ const introExtras = [{
     value:'22.10.1992',
 },{
     icon: 'fa fa-drivers-license',
-    value:'B category, automobile (since 2010)',
+    value:'B category, automobile',
 }
 ]
 //dynamic icon

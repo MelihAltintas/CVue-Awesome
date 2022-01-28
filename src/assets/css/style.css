@@ -126,7 +126,7 @@ body {
     padding-left: 0;
     list-style: none;
     text-align: left;
-    margin-top: 110px;
+    /* margin-top: 110px; */
 }
 
 
@@ -153,13 +153,15 @@ body {
     }
 
     .intro-list-contact {
-        margin-left: 18px;
-        margin-top: 30px;
+        /* margin-left: 18px;
+        margin-top: 30px; */
+        padding-left: 3rem;
     }
 
     .intro-list-social {
-        margin-top: 10px;
-        margin-left: -15px;
+        /* margin-top: 30px;
+        margin-left: 18px; */
+        padding-left: 3rem;
     }
 
 }
