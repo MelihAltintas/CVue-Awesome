@@ -13,7 +13,7 @@
         <img :src="getImagePath(item.logo)" style="width:100%" />
         <p class="mt-3"> 
           {{ item.description }}
-          <a :href="item.github"><i :class="`fa fa-github mb-2`" style="font-size: 20px;margin-right:10px"></i></a>
+          <a :href="item.github"><i :class="`fab fa-github mb-2`" style="font-size: 20px;margin-right:10px"></i></a>
         </p>
       </div>
     </div>
