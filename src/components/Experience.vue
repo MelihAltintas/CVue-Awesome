@@ -9,7 +9,7 @@
       >
         <div class="timeline-arrow"></div>
         <p class="h5 bold">{{ exp.position }}</p>
-        <img :src="getImage(exp.workAt)" width="50%"/>
+        <img :src="getImage(exp.workAt)" style="width:50%"/>
         <div class="h4 mt-3" style="font-style: italic;">{{ exp.duration }}</div>
         <p
           v-if="exp.description != null && exp.description != undefined"
