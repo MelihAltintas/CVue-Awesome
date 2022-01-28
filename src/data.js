@@ -6,11 +6,23 @@ const introInfo = {
     image: 'me.jpg',
 }
 
+const introExtras = [{
+    icon: 'fas fa-flag',
+    value:'Republic Of Turkey',
+},
+{
+    icon: 'fas fa-birthday-cake',
+    value:'22.10.1992',
+},{
+    icon: 'fa fa-drivers-license',
+    value:'B category, automobile (since 2010)',
+}
+]
 //dynamic icon
 const socialMediaInfo = [{
         name: 'linkedin',
         link: 'https://www.linkedin.com/in/melihaltintas92/',
-        username: 'coskuncayemre',
+        username: 'melihaltintas92',
         displayName: 'linkedin/melihaltintas92'
     },
 
@@ -54,7 +66,7 @@ const summaryInfo =
 //desc v-html 
 const experinceInfo = [
     {
-        workAt: 'Aselsan',
+        workAt: 'aselsan.png',
         position: 'Senior Software Engineer',
         duration: '07 2015 – *',
         description: 'Work as a full stack software engineer.',
@@ -82,43 +94,6 @@ const educationInfo = [
     },
     
 ];
-const projectInfo = [{
-        title: 'Project 1',
-        meta: 'Propulsion Engineer',
-        description: 'Responsibilities included: writing technical reports and other documentation, such as handbooks and bulletins, for use by engineering staff, management, and customers, analyzing project requests and proposals and engineering data to determine feasibility, predictability, cost, and production time of aerospace or aeronautical product.',
-        images: [{
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-            }
-        ]
-    },
-    {
-        title: 'Project 1',
-        meta: 'Propulsion Engineer',
-        description: 'Responsibilities included: writing technical reports and other documentation, such as handbooks and bulletins, for use by engineering staff, management, and customers, analyzing project requests and proposals and engineering data to determine feasibility, predictability, cost, and production time of aerospace or aeronautical product.',
-        images: [{
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-            }
-        ]
-    }
-]
 
 
 const skillInfo = [
@@ -196,12 +171,13 @@ export default {
     socialMediaInfo: socialMediaInfo,
     experinceInfo: experinceInfo,
     educationInfo: educationInfo,
-    projectInfo: projectInfo,
+
     skillInfo: skillInfo,
     languageInfo: languageInfo,
     contactInfo: contactInfo,
     summaryInfo: summaryInfo,
     otherSkillInfo: otherSkillInfo,
     proSkillInfo: proSkillInfo,
-    portfolioInfo:portfolioInfo
+    portfolioInfo:portfolioInfo,
+    introExtras:introExtras
 }

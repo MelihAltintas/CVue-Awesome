@@ -2,7 +2,7 @@
 <div class="main-page text-center position-relative" ref="content">
     <div class="main-page-inner mx-auto text-start bg-white shadow-lg">
         <!-- <button class="btn" @click="exportPdf()" v-if="downloadButtonVisible">Export PDF</button> -->
-        <Intro :introInfo="data.introInfo" :contactInfo="data.contactInfo" :socialMediaInfo="data.socialMediaInfo" />
+        <Intro :introInfo="data.introInfo" :contactInfo="data.contactInfo" :socialMediaInfo="data.socialMediaInfo" :introExtras="data.introExtras"/>
         <div class="p-5">
             <Summary :summaryInfo="data.summaryInfo" />
             <div class="row">
@@ -90,6 +90,3 @@ export default {
 }
 </script>
 
-<style>
-@import './assets/css/font-awesome/css/font-awesome.css';
-</style>
